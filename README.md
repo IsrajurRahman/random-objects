@@ -12,10 +12,14 @@ Also, there is a Report button on the page.  When clicked, shows the total count
 
 ## To Run The APP
 
-Pull the project from git and run
-
+Pull the project from git and follow below steps
+>Make sure your system has pipenv installed
 ```
 pipenv shell
+```
+
+```
+pipenv install uvicorn
 ```
 
 ```
