@@ -7,7 +7,7 @@ Sample extracted output:
 lizierdjfklaasf, 123192u3kjwekhf, 89181811238,122, 
 nmarcysfa900jkifh, 3.781, 2.11, ....*
 
-The output max file is 2MB in size. Once file generation is done the output file can be downloaded by clicking on a link. 
+The output file is 2MB in size. Once file generation is done the output file can be downloaded by clicking on a link. 
 Also, there is a Report button on the page.  When clicked, shows the total count of generated objects.
 
 ## To Run The APP
