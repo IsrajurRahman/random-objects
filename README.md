@@ -22,4 +22,7 @@ pipenv shell
 uvicorn main:app
 ```
 
+
+## Sample Image
+
 ![alt text](https://github.com/IsrajurRahman/random-objects/blob/main/templates/sample_image.png)
