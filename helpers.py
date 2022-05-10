@@ -1,25 +1,25 @@
 import random
+import string
 
 
-# alphabetical strings
 def get_random_alphabetical_strings():
     """Generates random alphabetical strings."""
-    pass
+    return ''.join([random.choice(string.ascii_lowercase) for _ in range(random.randint(5, 10))])
 
 
-# real numbers
 def get_random_real_numbers():
     """Generates random real numbers."""
-    pass
+    length = random.randint(1, 10)
+    return str(round(random.uniform(0.0, 10000.0), length))
 
 
-# integers
 def get_random_integers():
     """Generates random integers."""
-    pass
+    return str(random.randint(0, 10000))
 
 
-# alphanumerics
 def get_random_alphanumerics():
     """Generates random alphanumerics."""
-    pass
+    return ''.join(random.choice(
+        string.ascii_uppercase + string.ascii_lowercase + string.digits
+    ) for _ in range(10))
